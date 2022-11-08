@@ -5,24 +5,28 @@
 	display: grid;
 	grid-template-columns: 25% 75%;
 	align-content: center;
+
+	background-color: rgba(255,0,0,.3);
 }
+
+/* navbar content containers */
 .navbar-name{
 	display: flex;
 	padding: 1rem 2rem 1rem 2rem;
 	margin: 0;
 }
-.navbar-container ul{
-	display: flex;
+.navbar-links{
+	display: grid;
+	justify-content: end;
 	margin: 0;
 	padding: 0;
+}
+.navbar-container ul{
+	display: flex;
 }
 
 
 /* link styling */
-.navbar-links{
-	display: grid;
-	justify-content: end;
-}
 .navbar-links li{
 	list-style: none;
 	display: grid;
