@@ -1,5 +1,7 @@
 /* navbar container (grid template) */
 .navbar-container{
+	position: sticky;
+	top: 0px;
 	display: grid;
 	grid-template-columns: 25% 75%;
 	align-content: center;
@@ -23,9 +25,13 @@
 }
 .navbar-links li{
 	list-style: none;
-}
-.navbar-links li{
+	display: grid;
+	align-content: center;
+	justify-items: stretch;
+
 	padding: 1rem 2rem 1rem 2rem;
+}
+.navbar-links li a{
 	text-decoration: none;
 }
 
