@@ -5,7 +5,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Portfolio Template</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+
+	<style>
+		@import url('styles/nav.css'); /* navbar and footer */
+		@import url('styles/cards.css'); /* cards */
+		@import url('styles/theme.css'); /* theme */
+		@import url('styles/body.css');
+	</style>
 </head>
 
 <body>
@@ -27,21 +33,25 @@
 		<!-- scroll to see more  -->
 		<div></div>
 	</div>
-	
-	<!-- cards (projects,about me, contact) -->
-	<div>
-		<div>
-			<h3>Projects</h3>
+
+	<section class="body-container">
+
+		<!-- cards (projects,about me, contact) -->
+		<div class="cards-container">
+			<div class="card">
+				<h3>Projects</h3>
+			</div>
+			
+			<div class="card">
+				<h3>About Me</h3>
+			</div>
+			
+			<div class="card">
+				<h3>Contact</h3>
+			</div>		
 		</div>
 		
-		<div>
-			<h3>About Me</h3>
-		</div>
-		
-		<div>
-			<h3>Contact</h3>
-		</div>		
-	</div>
+	</section>
 	
 	<!-- footer w/ socials -->
 	<div>

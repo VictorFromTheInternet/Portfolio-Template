@@ -1,0 +1,16 @@
+/* cards container (grid) */
+.cards-container{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 1rem;
+}
+
+/* card */
+.card{
+	display: grid;
+	justify-content: center;
+	align-content: center;
+	min-width: 25%;
+}
+
+/* media queries */
