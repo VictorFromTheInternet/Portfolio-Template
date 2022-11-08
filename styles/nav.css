@@ -1,6 +1,33 @@
 /* navbar container (grid template) */
+.navbar-container{
+	display: grid;
+	grid-template-columns: 25% 75%;
+	align-content: center;
+}
+.navbar-name{
+	display: flex;
+	padding: 1rem 2rem 1rem 2rem;
+	margin: 0;
+}
+.navbar-container ul{
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+
 
 /* link styling */
+.navbar-links{
+	display: grid;
+	justify-content: end;
+}
+.navbar-links li{
+	list-style: none;
+}
+.navbar-links li{
+	padding: 1rem 2rem 1rem 2rem;
+	text-decoration: none;
+}
 
 /* footer container (grid template) */
 
