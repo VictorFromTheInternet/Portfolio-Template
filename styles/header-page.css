@@ -2,4 +2,7 @@
 	display: grid;
 	justify-content: center;
 	align-content: center;
+	min-height: 100vh;
+
+	background-color: rgba(255,0,0,.2);
 }
