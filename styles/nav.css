@@ -1,12 +1,16 @@
 /* navbar container (grid template) */
 .navbar-container{
-	position: sticky;
 	top: 0px;
+	position: sticky;
+	
 	display: grid;
-	grid-template-columns: 25% 75%;
-	align-content: center;
-
-	background-color: rgba(255,0,0,.3);
+	grid-template-columns: 30% 70%;
+	align-items: center;
+	
+	background-color: var(--navbar-background);
+	border: solid;
+	border-width: 0 0 1px 0;
+	border-color: rgba(20,20,20,.5);
 }
 
 /* navbar content containers */
@@ -17,25 +21,21 @@
 }
 .navbar-links{
 	display: grid;
+	grid-template-columns: 20% 20% 20%;
 	justify-content: end;
+
 	margin: 0;
 	padding: 0;
 }
-.navbar-container ul{
-	display: flex;
-}
-
 
 /* link styling */
-.navbar-links li{
-	list-style: none;
-	display: grid;
-	align-content: center;
-	justify-items: stretch;
-
-	padding: 1rem 2rem 1rem 2rem;
+.navbar-link{
+	padding: 1.6em 2em 1.6em 2em;
 }
-.navbar-links li a{
+.navbar-link:hover{
+	background-color: var(--navbar-background-hover);
+}
+.navbar-link a{
 	text-decoration: none;
 }
 

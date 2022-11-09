@@ -8,7 +8,11 @@ html, body{
 }
 
 /* root color pallete */
-
+:root{
+	--navbar-background: rgba(255,0,0,.2);
+	--navbar-background-hover: rgba(255,0,0,.5);
+	--main-background: rgba(255,0,0,.2);
+}
 
 
 /* font family classes */
